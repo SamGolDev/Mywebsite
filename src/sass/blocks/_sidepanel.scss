@@ -1,0 +1,25 @@
+.sidepanel {
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50px;
+  &__link {
+    text-align: center;
+    /* color: rgba(255, 255, 255, 0.9); */
+    color: $text-color;
+    transform: scale(1.5);
+    width: 30px;
+    padding: 20px 0;
+    transition: 0.5s all;
+    &:hover {
+      color: $main-color;
+      transform: rotate(-2deg) scale(2) translate(7px, 0px);
+      text-shadow: 0 0 5px $main-color;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://samgoldev.github.io/mywebsite",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "fullpage.js": "^4.0.9",
+    "gh-pages": "^4.0.0",
+    "graceful-fs": "^4.2.2"
+  }
+}
